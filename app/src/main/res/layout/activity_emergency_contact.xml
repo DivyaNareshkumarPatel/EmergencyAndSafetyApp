@@ -15,18 +15,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Emergency Contacts"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Emergency Contact 1 -->
     <TextView
         android:id="@+id/contactLabel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Contact 1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emergencyText" />
@@ -36,6 +39,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:inputType="phone"
         android:hint="Enter contact number"
         android:paddingLeft="10dp"
@@ -44,12 +49,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactLabel1" />
 
-    <!-- Emergency Contact 2 -->
     <TextView
         android:id="@+id/contactLabel2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Contact 2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactInput1" />
@@ -63,16 +69,19 @@
         android:hint="Enter contact number"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactLabel2" />
 
-    <!-- Emergency Contact 3 -->
     <TextView
         android:id="@+id/contactLabel3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Contact 3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactInput2" />
@@ -86,16 +95,19 @@
         android:hint="Enter contact number"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactLabel3" />
 
-    <!-- Emergency Contact 4 -->
     <TextView
         android:id="@+id/contactLabel4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Contact 4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactInput3" />
@@ -109,11 +121,12 @@
         android:hint="Enter contact number"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactLabel4" />
 
-    <!-- Next Button -->
     <Button
         android:id="@+id/nextBtn"
         android:layout_width="wrap_content"

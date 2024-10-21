@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#FF9A8B"
+                android:centerColor="#FF6A88"
+                android:endColor="#FF99AC"
+                android:angle="45" />
+        </shape>
+    </item>
+
+    <!-- Top Curved Shape -->
+    <item android:top="0dp">
+        <bitmap
+            android:src="@drawable/top_shape"
+            android:gravity="top" />
+    </item>
+
+    <!-- Bottom Curved Shape -->
+    <item android:bottom="0dp">
+        <bitmap
+            android:src="@drawable/bottom_shape"
+            android:gravity="bottom" />
+    </item>
+</layer-list>

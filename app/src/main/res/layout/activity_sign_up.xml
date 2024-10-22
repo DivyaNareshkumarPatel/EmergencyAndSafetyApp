@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
+    android:background="@color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".SignUpActivity">
 
@@ -42,7 +43,7 @@
             android:fontFamily="sans-serif"
             android:text="Sign Up"
             android:textColor="@android:color/black"
-            android:textSize="46sp"
+            android:textSize="28sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/innerContraint" />

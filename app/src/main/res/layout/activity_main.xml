@@ -55,7 +55,7 @@
         android:layout_marginTop="8dp"
         android:text="Press the SOS button, your live location will be shared with the nearest help center and your emergency contacts."
         android:textColor="@android:color/darker_gray"
-        android:textSize="14sp"
+        android:textSize="12sp"
         android:layout_marginRight="5dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
         android:id="@+id/sosCard"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         app:cardBackgroundColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +106,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Press 3 for second"
+                    android:text="Press for 3 second"
                     android:textColor="@android:color/white"
                     android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -211,7 +211,7 @@
                 android:id="@+id/alertIcon"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/alert_icon" /> <!-- Replace with your alert icon -->
+                android:src="@drawable/explore_icon" />
 
             <TextView
                 android:id="@+id/alertText"
@@ -233,7 +233,7 @@
                 android:id="@+id/contactIcon"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/contact_icon" /> <!-- Replace with your contact icon -->
+                android:src="@drawable/contact_icon" />
 
             <TextView
                 android:id="@+id/contactText"
@@ -255,14 +255,14 @@
                 android:id="@+id/profileIcon"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/profile_icon" />
+                android:src="@drawable/alert_icon" />
 
             <TextView
                 android:id="@+id/profileText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Profile"
+                android:text="Notification"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>

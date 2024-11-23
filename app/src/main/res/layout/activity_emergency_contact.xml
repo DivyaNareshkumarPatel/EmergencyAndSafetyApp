@@ -17,7 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Title Text -->
     <TextView
         android:id="@+id/emergencyText"
         android:layout_width="wrap_content"
@@ -32,7 +31,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Contact 1 Input -->
     <EditText
         android:id="@+id/contactInput1"
         android:layout_width="0dp"
@@ -48,7 +46,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emergencyText" />
 
-    <!-- Contact 2 Input -->
     <EditText
         android:id="@+id/contactInput2"
         android:layout_width="0dp"
@@ -64,7 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactInput1" />
 
-    <!-- Contact 3 Input -->
     <EditText
         android:id="@+id/contactInput3"
         android:layout_width="0dp"
@@ -80,7 +76,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactInput2" />
 
-    <!-- Contact 4 Input -->
     <EditText
         android:id="@+id/contactInput4"
         android:layout_width="0dp"
@@ -96,7 +91,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactInput3" />
 
-    <!-- Next Button -->
     <Button
         android:id="@+id/nextBtn"
         android:layout_width="0dp"
@@ -112,6 +106,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contactInput4" />
 
-    <!-- Bottom Shape -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

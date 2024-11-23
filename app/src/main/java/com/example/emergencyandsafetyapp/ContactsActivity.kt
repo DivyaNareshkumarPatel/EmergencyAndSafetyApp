@@ -1,7 +1,10 @@
 package com.example.emergencyandsafetyapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -26,9 +29,12 @@ class ContactsActivity : AppCompatActivity() {
             "987-654-3210",
             "555-123-4567",
             "111-222-3333",
-            "444-555-6666"
         )
         val adapter = ArrayAdapter(this, R.layout.list_item_phone_number, R.id.phoneNumberTextView, phoneNumbers)
         listview.adapter = adapter
+        findViewById<LinearLayout>(R.id.homeNavigation).setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

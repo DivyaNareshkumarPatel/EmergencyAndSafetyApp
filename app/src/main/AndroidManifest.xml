@@ -16,7 +16,7 @@
             android:name=".Explore_Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ContactsActivity"
             android:exported="false" />
         <activity
             android:name=".EmergencyContactActivity"
@@ -28,7 +28,7 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ContactsActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
